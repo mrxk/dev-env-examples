@@ -1,0 +1,10 @@
+source /etc/profile
+
+alias vim=nvim
+alias ll="ls -la"
+
+if [ "${TMUX}" != "" ]
+then
+    export $(tmux show-environment PATH)
+fi
+

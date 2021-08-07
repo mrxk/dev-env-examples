@@ -1,0 +1,7 @@
+{
+    "containerArgs": [
+        "-v", "${HOME}/.ssh:/home/developer/.ssh",
+        "-v", "${PROJECTROOT}:/src",
+        "-w", "/src"
+    ]
+}
